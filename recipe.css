@@ -1,0 +1,91 @@
+/* body edit  */
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: blueviolet;
+  
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+}
+
+/* Search container */
+.search-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  margin: 0 auto;
+  max-width: 400px;
+  background-image: url(food.jpg); 
+}
+/* Search input */
+.searchInput {
+  padding: 10px;
+  font-size: 16px;
+  width: 250px;
+}
+/* Search button edit  */
+.searchButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #9d26ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10;
+}
+
+/* Meal container edit  */
+.mealContainer {
+  margin-top: 20px;
+  display: none;
+}
+
+/* meal card edit  */
+.meal-card {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%; 
+  max-width: 400px; 
+  margin: 0 auto; 
+}
+
+.meal-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* edit the omg of the meal */
+.meal-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+/*edit  */
+.meal-card p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* youtube edit  */
+.meal-card a {
+  color: #096cec;
+}
+h3 {
+  color: red;
+  font-size: 20px;
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meal Search</title>
+  <link rel="stylesheet" type="text/css" href="recipe.css">
+  <style>
+  
+  </style>
+</head>
+<body>
+
+  <h1>Search for Meal</h1>
+<!-- Search container  -->
+ <div class="search-container">
+    <form id="searchForm" action="recipe.html" method="get">
+      <input type="text" id="searchInput" class="searchInput" placeholder="Search for a meal" required>
+      <button type="submit" id="searchButton" class="searchButton">Search</button>
+    </form>
+  </div>
+
+<!-- here the meal information showen in the html page  -->
+  <div id="mealContainer" class="mealContainer">
+    <!-- Placeholder div for the meal card -->
+    <div id="mealCardPlaceholder" class="meal-card"></div>
+  </div>
+  
+  <script src="recipe.js"></script>
+
+</body>
+</html>
